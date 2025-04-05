@@ -1,0 +1,148 @@
+const projects = [
+  {
+    id: "R001",
+    name: "Classy BlackLock",
+    client: "Pizza Palace Co.",
+    description:
+      "A dynamic pizza restaurant website with bold animations and intuitive navigation, allowing users to explore menus, reserve tables, and find locations easily.",
+    features: [
+      "GSAP animations",
+      "Scroll-triggered effects",
+      "Interactive menu",
+      "Reservation form with email alerts",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript", "GSAP", "ScrollTrigger"],
+    image: "/proj3.png",
+    link: "https://pizza-palace.example.com",
+    previousPrice: "৳9990",
+    price: "৳4990",
+  },
+  {
+    id: "R002",
+    name: "The Shiraz",
+    client: "Sushi Street Ltd.",
+    description:
+      "A sleek and minimalist sushi bar website highlighting high-quality imagery, chef specials, and online booking.",
+    features: [
+      "Responsive design",
+      "Animated sections with AOS",
+      "Menu with item filtering",
+      "Google Maps integration",
+    ],
+    techStack: ["React", "Tailwind CSS", "Framer Motion"],
+    image: "/proj1.png",
+    link: "https://sushi-street.example.com",
+    previousPrice: "৳8990",
+    price: "৳4990",
+  },
+  {
+    id: "R003",
+    name: "Sacrée Fleur",
+    client: "Tandoori House",
+    description:
+      "A fiery restaurant site with rustic UI, showcasing Indian cuisine, event booking, and chef profiles.",
+    features: [
+      "Image carousel",
+      "Dish gallery",
+      "Event calendar",
+      "Firebase for booking storage",
+    ],
+    techStack: ["React", "Firebase", "CSS Modules"],
+    image: "/rest-paris1.png",
+    link: "https://tandoori-trails.example.com",
+    previousPrice: "৳9990",
+    price: "৳4990",
+  },
+  {
+    id: "R004",
+    name: "The Bristol Paris",
+    client: "Bunker Foods Inc.",
+    description:
+      "A bold and edgy burger joint website with real-time order form and admin dashboard for inventory control.",
+    features: [
+      "Firebase Realtime DB",
+      "Admin panel with login",
+      "Order form with status tracker",
+      "Menu CMS for updates",
+    ],
+    techStack: ["React", "Firebase", "Tailwind CSS"],
+    image: "/res-paris3.png",
+    link: "https://burger-bunker.example.com",
+    previousPrice: "৳9990",
+    price: "৳5990",
+  },
+  {
+    id: "R005",
+    name: "Cafe Mirage",
+    client: "Mirage Coffee Co.",
+    description:
+      "A coffee shop site with warm aesthetic and engaging user experience. Includes loyalty signup and seasonal menu.",
+    features: [
+      "Custom animations with GSAP",
+      "Newsletter sign-up with Firebase",
+      "Seasonal menu slider",
+      "Dark/light mode toggle",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript", "GSAP"],
+    image: "/proj4.png",
+    link: "https://cafe-mirage.example.com",
+    previousPrice: "৳7990",
+    price: "৳3990",
+  },
+  {
+    id: "R006",
+    name: "Thirsty Hours",
+    client: "Pasta Artisans",
+    description:
+      "An artistic Italian cuisine site with motion graphics and an online table reservation system.",
+    features: [
+      "Parallax scroll",
+      "Contact form integration",
+      "Dish of the Day section",
+      "GSAP-enhanced intro section",
+    ],
+    techStack: ["React", "GSAP", "SCSS"],
+    image: "/proj2.png",
+    link: "https://pasta-picasso.example.com",
+    previousPrice: "৳8990",
+    price: "৳4290",
+  },
+  {
+    id: "R007",
+    name: "Barbotin",
+    client: "BBQ Bros. Joint",
+    description:
+      "A rustic BBQ joint site showcasing smoky visuals, food challenges, and online group booking features.",
+    features: [
+      "Responsive layout",
+      "Gallery of events",
+      "Group reservation form",
+      "Countdown timer for events",
+    ],
+    techStack: ["React", "Tailwind CSS", "Node.js"],
+    image: "/res-paris2.png",
+    link: "https://bbq-brothers.example.com",
+    previousPrice: "৳10190",
+    price: "৳4990",
+  },
+  {
+    id: "R008",
+    name: "Blacklock",
+    client: "GreenLife Ventures",
+    description:
+      "A clean and eco-friendly vegan restaurant site featuring ingredient transparency, blog, and delivery options.",
+    features: [
+      "Product cards with filters",
+      "Blog system",
+      "Order & delivery form",
+      "Firebase Authentication for members",
+    ],
+    techStack: ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
+    image: "/proj5.png",
+    link: "https://vegan-vibe.example.com",
+    previousPrice: "৳11090",
+    price: "৳5990",
+  },
+];
+
+export default projects;
